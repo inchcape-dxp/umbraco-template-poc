@@ -1,0 +1,19 @@
+
+
+
+
+h1 {
+    @include font-size(3rem);
+    color: $pink-500;
+    //color: green;
+}
+
+
+p {
+    @include font-size(1rem);
+}
+
+
+p.card-text {
+    text-wrap: balance;
+}
